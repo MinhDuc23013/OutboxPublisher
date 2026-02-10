@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutboxPublisherBackgroundService", "OutboxPublisherBackgroundService\OutboxPublisherBackgroundService.csproj", "{A41AE31C-A04E-4D20-8443-79127F3EF135}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A41AE31C-A04E-4D20-8443-79127F3EF135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41AE31C-A04E-4D20-8443-79127F3EF135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41AE31C-A04E-4D20-8443-79127F3EF135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41AE31C-A04E-4D20-8443-79127F3EF135}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF31C1CE-E65C-4576-B74A-A600A7746418}
+	EndGlobalSection
+EndGlobal
