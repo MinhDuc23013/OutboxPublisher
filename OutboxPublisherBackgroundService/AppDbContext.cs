@@ -27,9 +27,6 @@ namespace OutboxPublisherBackgroundService
                 b.ToTable("outbox_messages");
                 b.HasKey(x => x.Id);
 
-                //b.Property(x => x.Id).UseIdentityAlwaysColumn();
-                //b.Property(x => x.Payload).HasColumnType("jsonb");
-
                 b.HasIndex(x => x.PublishedAt);
             });
 

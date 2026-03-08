@@ -15,6 +15,9 @@ namespace OutboxPublisherBackgroundService
         public DateTime OccurredAt { get; set; }
         public DateTime? PublishedAt { get; set; }
         public string Status { get; set; }
+
+        public string? TraceParent { get; set; }  
+        public string? TraceState { get; set; } 
     }
 
 }
